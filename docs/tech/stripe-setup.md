@@ -1,8 +1,12 @@
 # Stripe Payment Links Setup
 
+**Technical Documentation**
+
 ## Overview
 
-We're using Stripe Payment Links for simplicity. No backend code required - just create links in the Stripe dashboard and add them to the website.
+This document describes the technical implementation of Stripe payment integration using Payment Links.
+
+We're using Stripe Payment Links for simplicity. No backend code required - just create links in the Stripe dashboard and add them to the website via environment variables.
 
 ## Step-by-Step Setup
 

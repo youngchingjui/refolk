@@ -6,17 +6,18 @@
 
 ## Current Pricing (as of 2026-02-09)
 
-| Tier | Price | Target Audience |
-|------|-------|----------------|
-| **Starter** | $50/month | Individuals, solopreneurs, small teams testing the concept |
-| **Team** | $300/month | Product teams, marketing teams, growing companies |
-| **Enterprise** | Custom | Large organizations, custom requirements |
+| Tier           | Price      | Target Audience                                            |
+| -------------- | ---------- | ---------------------------------------------------------- |
+| **Starter**    | $50/month  | Individuals, solopreneurs, small teams testing the concept |
+| **Team**       | $300/month | Product teams, marketing teams, growing companies          |
+| **Enterprise** | Custom     | Large organizations, custom requirements                   |
 
 ## Pricing Philosophy
 
 **Speed over perfection:** The goal right now is to get something live and start learning from real customers. These prices are intentionally simple round numbers to reduce decision fatigue (both for us and customers).
 
 **Validate before optimizing:** We need to understand:
+
 - Who actually wants this product?
 - What value do they get from it?
 - How do they use it?
@@ -29,7 +30,8 @@ Once we have 10-20 paying customers, we'll have real data to inform pricing deci
 **Key change:** Instead of limiting by conversations (confusing, unpredictable), limit by number of personas you can access. Much simpler and clearer value.
 
 ### Starter - $50/month
-*For testing the waters*
+
+_For testing the waters_
 
 - **Access to 3 curated personas**
 - **Unlimited conversations** with those 3
@@ -39,7 +41,8 @@ Once we have 10-20 paying customers, we'll have real data to inform pricing deci
 - Community support
 
 ### Team - $300/month
-*For product and marketing teams*
+
+_For product and marketing teams_
 
 - **Access to 50+ curated personas**
 - Full roster access
@@ -50,7 +53,8 @@ Once we have 10-20 paying customers, we'll have real data to inform pricing deci
 - API access
 
 ### Enterprise - Custom pricing
-*For organizations at scale*
+
+_For organizations at scale_
 
 - **Unlimited persona access**
 - Everything in Team
@@ -64,11 +68,13 @@ Once we have 10-20 paying customers, we'll have real data to inform pricing deci
 ## Why Persona Access (Not Conversation Limits)
 
 **Rejected approach:** Limit by conversations per month
+
 - ❌ Confusing - "What counts as a conversation? How long is one?"
 - ❌ Unpredictable - "Will I run out mid-month?"
 - ❌ Creates anxiety - Users ration usage instead of using freely
 
 **Better approach:** Limit by number of personas accessible
+
 - ✅ Crystal clear - "I get 3 perspectives vs 50 perspectives"
 - ✅ Predictable - "I can talk to them as much as I need"
 - ✅ Scales with value - More personas = more diverse perspectives
@@ -85,6 +91,7 @@ Once we have 10-20 paying customers, we'll have real data to inform pricing deci
 ## Competitive Landscape
 
 Need to research:
+
 - What do user research tools charge? (UserTesting, User Interviews, etc.)
 - What do AI/chatbot platforms charge? (for structural comparison)
 - What do market research platforms charge? (Qualtrics, SurveyMonkey, etc.)
@@ -99,7 +106,7 @@ Need to research:
 
 ## Notes & Learnings
 
-*Add insights from customer conversations, objections, feedback here as we learn*
+_Add insights from customer conversations, objections, feedback here as we learn_
 
 ---
 
