@@ -19,11 +19,11 @@ The current "How It Works" section **completely contradicts the value propositio
 
 The actual user journey is:
 
-1. ✅ **Browse the roster** - See the twins we've already built
+1. ✅ **Browse the roster** - See the personas we've already built
 2. ✅ **Pick your perspectives** - Choose 3 (Starter) or 50+ (Team) personas
 3. ✅ **Connect to your channels** - Add them to Slack, Email, etc.
 4. ✅ **Start asking questions** - Get immediate feedback
-5. ✅ **Iterate freely** - Ask follow-ups, test variations, try different twins
+5. ✅ **Iterate freely** - Ask follow-ups, test variations, try different personas
 
 ## Key Messaging Shift
 
@@ -36,7 +36,7 @@ The actual user journey is:
 
 ### NEW (correct)
 
-- Emphasizes twins are already built
+- Emphasizes personas are already built
 - Shows how simple it is to start using
 - Reinforces "we've done the hard work" message
 - Removes friction, shows speed
@@ -53,7 +53,7 @@ The actual user journey is:
 
 ### 3. Connect your channels
 
-"Add twins to Slack, Email, or wherever you work. They're available 24/7, respond in seconds."
+"Add personas to Slack, Email, or wherever you work. They're available 24/7, respond in seconds."
 
 ### 4. Start asking questions
 
@@ -61,11 +61,11 @@ The actual user journey is:
 
 ### 5. Iterate without limits
 
-"Ask follow-ups. Try different approaches. Test on multiple personas. The twins never get tired, never need scheduling, never cost extra."
+"Ask follow-ups. Try different approaches. Test on multiple personas. The personas never get tired, never need scheduling, never cost extra."
 
-## What About Custom Twins?
+## What About Custom Personas?
 
-Custom twin creation should be:
+Custom persona creation should be:
 
 - Mentioned as a **Team/Enterprise feature** (not the default path)
 - Positioned as "advanced" or "optional"
@@ -73,7 +73,7 @@ Custom twin creation should be:
 
 Something like:
 
-> "Need a highly specific persona? Team and Enterprise customers can request custom twins tailored to your exact audience."
+> "Need a highly specific persona? Team and Enterprise customers can request custom personas tailored to your exact audience."
 
 ## Implementation
 

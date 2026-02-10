@@ -11,7 +11,7 @@ export function Pricing() {
             Pricing
           </p>
           <h2 className="mt-4 text-3xl md:text-4xl font-medium tracking-tight text-balance">
-            One twin costs less than one focus group participant
+            One persona costs less than one focus group participant
           </h2>
           <p className="mt-4 text-muted-foreground leading-relaxed">
             A single focus group runs $5,000–$15,000 and gives you two hours of

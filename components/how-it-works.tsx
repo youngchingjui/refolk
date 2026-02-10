@@ -7,10 +7,10 @@ export function HowItWorks() {
             How it works
           </p>
           <h2 className="mt-4 text-3xl md:text-4xl font-medium tracking-tight text-balance">
-            A twin is not a persona. It{"'"}s a person.
+            More than a persona. A person.
           </h2>
           <p className="mt-4 text-muted-foreground leading-relaxed">
-            Traditional personas are flat documents. A twin is a coherent individual with a history, 
+            Traditional personas are flat documents. Ours are coherent individuals with a history,
             values, anxieties, and decision-making patterns that persist across every interaction.
           </p>
         </div>
@@ -34,7 +34,7 @@ export function HowItWorks() {
             <h3 className="text-lg font-medium">Build the backstory</h3>
             <p className="text-muted-foreground leading-relaxed">
               Childhood context. Formative experiences. Career trajectory. Relationship history. 
-              This is what gives the twin psychological realism—the texture that makes responses feel human.
+              This is what gives the persona psychological realism—the texture that makes responses feel human.
             </p>
           </div>
 
@@ -77,8 +77,8 @@ export function HowItWorks() {
             </div>
             <h3 className="text-lg font-medium">Iterate without cost</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Run the same test with different twins. Change variables. The twin is available 
-              24/7, responds in seconds, and never gets tired of your questions.
+              Run the same test with different personas. Change variables. They{"'"}re available
+              24/7, respond in seconds, and never get tired of your questions.
             </p>
           </div>
         </div>

@@ -46,7 +46,7 @@ function SlackMockup() {
           <div className="flex-1 min-w-0">
             <div className="flex items-baseline gap-2">
               <span className="font-bold text-white">Maya Chen</span>
-              <span className="text-[10px] px-1.5 py-0.5 rounded bg-[#4a154b] text-[#e8a5e9]">Twin</span>
+              <span className="text-[10px] px-1.5 py-0.5 rounded bg-[#4a154b] text-[#e8a5e9]">Persona</span>
               <span className="text-xs text-[#9a9b9d]">2:35 PM</span>
             </div>
             <p className="mt-1 leading-relaxed">
@@ -63,7 +63,7 @@ function SlackMockup() {
           <div className="flex-1 min-w-0">
             <div className="flex items-baseline gap-2">
               <span className="font-bold text-white">Marcus Johnson</span>
-              <span className="text-[10px] px-1.5 py-0.5 rounded bg-[#4a154b] text-[#e8a5e9]">Twin</span>
+              <span className="text-[10px] px-1.5 py-0.5 rounded bg-[#4a154b] text-[#e8a5e9]">Persona</span>
               <span className="text-xs text-[#9a9b9d]">2:36 PM</span>
             </div>
             <p className="mt-1 leading-relaxed">
@@ -80,7 +80,7 @@ function SlackMockup() {
           <div className="flex-1 min-w-0">
             <div className="flex items-baseline gap-2">
               <span className="font-bold text-white">Linda Okafor</span>
-              <span className="text-[10px] px-1.5 py-0.5 rounded bg-[#4a154b] text-[#e8a5e9]">Twin</span>
+              <span className="text-[10px] px-1.5 py-0.5 rounded bg-[#4a154b] text-[#e8a5e9]">Persona</span>
               <span className="text-xs text-[#9a9b9d]">2:37 PM</span>
             </div>
             <p className="mt-1 leading-relaxed">
@@ -243,11 +243,11 @@ function CICDMockup() {
           <span className="text-xs text-emerald-500 ml-auto">passed</span>
         </div>
         
-        {/* Twin review - warning */}
+        {/* Persona review - warning */}
         <div className="border border-yellow-500/30 rounded-md p-3 bg-yellow-500/5">
           <div className="flex items-center gap-3">
             <AlertCircle className="w-4 h-4 text-yellow-500" />
-            <span className="text-yellow-400 font-medium">twins/maya-review</span>
+            <span className="text-yellow-400 font-medium">refolk/maya-review</span>
             <span className="text-xs text-yellow-500 ml-auto">flagged</span>
           </div>
           <div className="mt-3 pl-7 text-[#8b949e] text-xs leading-relaxed">
@@ -258,12 +258,12 @@ function CICDMockup() {
 
         <div className="flex items-center gap-3">
           <Check className="w-4 h-4 text-emerald-500" />
-          <span className="text-[#8b949e]">twins/marcus-review</span>
+          <span className="text-[#8b949e]">refolk/marcus-review</span>
           <span className="text-xs text-emerald-500 ml-auto">approved</span>
         </div>
         <div className="flex items-center gap-3">
           <Check className="w-4 h-4 text-emerald-500" />
-          <span className="text-[#8b949e]">twins/linda-review</span>
+          <span className="text-[#8b949e]">refolk/linda-review</span>
           <span className="text-xs text-emerald-500 ml-auto">approved</span>
         </div>
       </div>
@@ -272,7 +272,7 @@ function CICDMockup() {
       <div className="px-4 py-3 border-t border-[#30363d] bg-[#161b22]">
         <div className="flex items-center gap-2 text-xs text-[#8b949e]">
           <X className="w-4 h-4 text-red-500" />
-          <span>Merging is blocked — 1 twin concern requires resolution</span>
+          <span>Merging is blocked — 1 persona concern requires resolution</span>
         </div>
       </div>
     </div>
@@ -354,11 +354,11 @@ export function Integrations() {
             Where you already work
           </p>
           <h2 className="mt-4 text-3xl md:text-4xl font-medium tracking-tight text-balance">
-            Twins that show up in your workflow
+            Personas that show up in your workflow
           </h2>
           <p className="mt-4 text-muted-foreground leading-relaxed">
-            Tag a twin in Slack. Get email open predictions before you send. Block deploys until 
-            user-facing copy passes twin review. Set up webhooks that trigger twin reactions 
+            Tag a persona in Slack. Get email open predictions before you send. Block deploys until
+            user-facing copy passes persona review. Set up webhooks that trigger persona reactions
             whenever you ship something new.
           </p>
         </div>
@@ -395,8 +395,8 @@ export function Integrations() {
         <div className="mt-12 p-6 border border-border rounded-lg bg-muted/30">
           <p className="text-sm text-muted-foreground leading-relaxed">
             <span className="font-medium text-foreground">API access included on Team and Enterprise plans.</span>
-            {" "}Build custom integrations, trigger twin conversations from your own systems, 
-            or embed twin feedback into internal tools.
+            {" "}Build custom integrations, trigger persona conversations from your own systems,
+            or embed persona feedback into internal tools.
           </p>
         </div>
       </div>

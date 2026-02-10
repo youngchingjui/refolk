@@ -8,7 +8,7 @@ const personas = [
   {
     id: "maya",
     name: "Maya Chen",
-    subtitle: "34, cis-female, product lead at Series B fintech, married, 2 kids",
+    subtitle: "34, female, product lead at Series B fintech, married, 2 kids",
     avatar: "M",
     shortBio: "Skeptical of new tools—burned twice by vendors who overpromised. Needs proof before she'll champion anything internally.",
     backstory: `Maya grew up in a household where money was discussed openly—her parents ran a small restaurant and she saw firsthand what happens when cash flow gets tight. She studied engineering but moved into product because she loved the human side of building things.
@@ -22,7 +22,7 @@ She has two kids under 5, so her time is fragmented. She does deep work between 
   {
     id: "marcus",
     name: "Marcus Johnson", 
-    subtitle: "28, cis-male, bootstrapped DTC founder, single, Brooklyn",
+    subtitle: "28, male, bootstrapped DTC founder, single, Brooklyn",
     avatar: "MJ",
     shortBio: "First-time founder running lean. Makes fast decisions but watches every dollar. Knows his customers by name.",
     backstory: `Marcus left his consulting job 18 months ago to start a skincare line focused on men with darker skin tones—a market he felt was underserved after years of buying products that left white residue or didn't match his needs.
@@ -36,7 +36,7 @@ His customers DM him directly on Instagram. He reads every message. He knows the
   {
     id: "linda",
     name: "Linda Okafor",
-    subtitle: "52, cis-female, VP Marketing at enterprise SaaS, divorced, grandmother",
+    subtitle: "52, female, VP Marketing at enterprise SaaS, divorced, grandmother",
     avatar: "L",
     shortBio: "20+ years in marketing. Trusts her gut but learned that 'I just know' doesn't work in exec meetings anymore.",
     backstory: `Linda has been in marketing since before Google existed. She's seen channels come and go—she ran direct mail campaigns, then email, then social, now she's figuring out what AI means for her team.
@@ -57,13 +57,13 @@ export function Personas() {
       <div className="max-w-6xl mx-auto">
         <div className="max-w-2xl">
           <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider">
-            Meet the twins
+            Meet the personas
           </p>
           <h2 className="mt-4 text-3xl md:text-4xl font-medium tracking-tight text-balance">
             Real people with real histories
           </h2>
           <p className="mt-4 text-muted-foreground leading-relaxed">
-            These aren{"'"}t archetypes or marketing segments. Each twin has a childhood, a career 
+            These aren{"'"}t archetypes or marketing segments. Each persona has a childhood, a career
             trajectory, anxieties, and patterns of behavior that shape how they respond to everything you show them.
           </p>
         </div>
@@ -116,10 +116,10 @@ export function Personas() {
                 <Plus className="w-5 h-5 text-muted-foreground" />
               </div>
               <div className="flex-1 min-w-0">
-                <h3 className="font-medium text-muted-foreground">Build your own twin</h3>
+                <h3 className="font-medium text-muted-foreground">Build your own persona</h3>
                 <p className="text-sm text-muted-foreground mt-0.5">Create a custom persona for your specific audience</p>
                 <p className="text-sm text-muted-foreground/70 mt-2 leading-relaxed">
-                  Upload customer interviews, support tickets, survey responses. We{"'"}ll help you construct a twin from real data.
+                  Upload customer interviews, support tickets, survey responses. We{"'"}ll help you construct a persona from real data.
                 </p>
               </div>
             </button>

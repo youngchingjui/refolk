@@ -1,4 +1,4 @@
-# Twins - User Requirements
+# Refolk - User Requirements
 
 **Last updated:** 2026-02-09
 
@@ -189,7 +189,7 @@ A service that provides pre-built, curated digital customer personas that respon
 These are potential future features, not current requirements:
 
 - **Custom persona building by users** - Team/Enterprise can request custom personas, but DIY persona building is not the core flow
-- **Census/polling at scale** - Running surveys across hundreds of twins (future premium feature)
+- **Census/polling at scale** - Running surveys across hundreds of personas (future premium feature)
 - **Analytics/reporting dashboard** - Tracking patterns across conversations
 - **API access for developers** - Team tier and above (future)
 

@@ -16,7 +16,7 @@ export function UseCases() {
             <div>
               <h3 className="text-xl font-medium">Test messaging before you ship it</h3>
               <p className="mt-4 text-muted-foreground leading-relaxed">
-                Show your twin an ad, a tagline, a landing page. They{"'"}ll tell you what feels off. 
+                Show your persona an ad, a tagline, a landing page. They{"'"}ll tell you what feels off.
                 {'"'}This detergent says it{"'"}s eco-friendly but feels vague. Is it actually better, 
                 or just more expensive?{'"'} You get real objections in human language, not survey data.
               </p>
@@ -25,7 +25,7 @@ export function UseCases() {
               <p className="text-sm text-muted-foreground font-medium mb-3">Example conversation</p>
               <div className="space-y-3 text-sm">
                 <p><span className="font-medium">You:</span> What do you think of this headline: {'"'}The future of clean, delivered{'"'}?</p>
-                <p><span className="font-medium">Twin:</span> It sounds nice but I have no idea what you{"'"}re selling. Delivered how? What{"'"}s clean? I{"'"}d scroll past this.</p>
+                <p><span className="font-medium">Persona:</span> It sounds nice but I have no idea what you{"'"}re selling. Delivered how? What{"'"}s clean? I{"'"}d scroll past this.</p>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@ export function UseCases() {
             <div>
               <h3 className="text-xl font-medium">Kill bad ideas before you build them</h3>
               <p className="mt-4 text-muted-foreground leading-relaxed">
-                Before your team spends three months building a feature, ask a twin: Would you actually 
+                Before your team spends three months building a feature, ask a persona: Would you actually
                 use this? What would confuse you? What feels unnecessary? Refine feature prioritization 
                 and reduce expensive real-world testing loops.
               </p>
@@ -43,7 +43,7 @@ export function UseCases() {
               <p className="text-sm text-muted-foreground font-medium mb-3">Example conversation</p>
               <div className="space-y-3 text-sm">
                 <p><span className="font-medium">You:</span> We{"'"}re thinking of adding social features—you could see what your friends bought.</p>
-                <p><span className="font-medium">Twin:</span> I don{"'"}t want my friends knowing what I buy. That feels invasive. I{"'"}d probably turn it off immediately.</p>
+                <p><span className="font-medium">Persona:</span> I don{"'"}t want my friends knowing what I buy. That feels invasive. I{"'"}d probably turn it off immediately.</p>
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ export function UseCases() {
             <div>
               <h3 className="text-xl font-medium">End opinion-driven debates</h3>
               <p className="mt-4 text-muted-foreground leading-relaxed">
-                When product, marketing, and design disagree about what customers want, bring in the twin. 
+                When product, marketing, and design disagree about what customers want, bring in the persona.
                 Everyone can consult the same customer. The conversation shifts from {'"'}I think{'"'} to 
                 {'"'}let{"'"}s ask.{'"'}
               </p>
@@ -61,7 +61,7 @@ export function UseCases() {
               <p className="text-sm text-muted-foreground font-medium mb-3">Example conversation</p>
               <div className="space-y-3 text-sm">
                 <p><span className="font-medium">Designer:</span> Should the checkout be one page or multi-step?</p>
-                <p><span className="font-medium">Twin:</span> I prefer seeing everything at once. When it{"'"}s split into steps I worry there{"'"}s hidden fees coming.</p>
+                <p><span className="font-medium">Persona:</span> I prefer seeing everything at once. When it{"'"}s split into steps I worry there{"'"}s hidden fees coming.</p>
               </div>
             </div>
           </div>

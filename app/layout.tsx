@@ -14,7 +14,7 @@ export const viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'Twins — Digital Customer Twins',
+  title: 'Refolk — AI Customer Personas',
   description: 'Turn customer personas into living, conversational simulations. Test ideas with customers before customers ever exist.',
   generator: 'v0.app',
   icons: {

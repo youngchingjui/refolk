@@ -11,8 +11,8 @@ export function Hero() {
         </h1>
         
         <p className="mt-6 md:mt-8 text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl">
-          Digital Customer Twins are AI-powered representations of your customers that you can actually 
-          converse with. Ask them questions. Test your messaging. Understand their objections. 
+          Refolk personas are AI-powered representations of your customers that you can actually
+          converse with. Ask them questions. Test your messaging. Understand their objections.
           Before you spend a dollar on research or a month building the wrong thing.
         </p>
 

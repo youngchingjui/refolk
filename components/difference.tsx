@@ -37,7 +37,7 @@ export function Difference() {
           </div>
 
           <div className="p-8 rounded-lg border-2 border-primary bg-card">
-            <h3 className="text-lg font-medium">Digital twins</h3>
+            <h3 className="text-lg font-medium">Refolk personas</h3>
             <ul className="mt-6 space-y-4">
               <li className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-foreground shrink-0 mt-0.5" />

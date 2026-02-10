@@ -34,7 +34,7 @@ A CTA should be **clear about what happens when you click it**, not just aspirat
 
 ### 1. Interactive Demo (above the fold)
 
-- User can actually talk to a twin right there
+- User can actually talk to a persona right there
 - CTA within demo: "Ask Maya" or "Send a message"
 - This is the "try it" moment
 

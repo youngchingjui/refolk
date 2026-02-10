@@ -1,4 +1,4 @@
-# Twins Project - Claude Guidelines
+# Refolk Project - Claude Guidelines
 
 ## Understanding This Project
 

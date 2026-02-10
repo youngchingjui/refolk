@@ -18,20 +18,20 @@ Go to [stripe.com](https://stripe.com) and sign up or log in.
 
 Navigate to **Products** in the Stripe dashboard, then create:
 
-#### Product 1: Twins - Starter
+#### Product 1: Refolk - Starter
 
-- **Name:** Twins - Starter
-- **Description:** Access to digital customer twins with Slack and Email integrations
+- **Name:** Refolk - Starter
+- **Description:** Access to AI customer personas with Slack and Email integrations
 - **Pricing:**
   - Type: Recurring
   - Price: $50 USD
   - Billing period: Monthly
   - Currency: USD
 
-#### Product 2: Twins - Team
+#### Product 2: Refolk - Team
 
-- **Name:** Twins - Team
-- **Description:** Full team access with custom twin creation and API access
+- **Name:** Refolk - Team
+- **Description:** Full team access with custom persona creation and API access
 - **Pricing:**
   - Type: Recurring
   - Price: $300 USD
