@@ -6,6 +6,7 @@ import { HowItWorks } from "@/components/how-it-works"
 import { Integrations } from "@/components/integrations"
 import { Difference } from "@/components/difference"
 import { Pricing } from "@/components/pricing"
+import { FAQ } from "@/components/faq"
 import { Footer } from "@/components/footer"
 
 export default function Page() {
@@ -19,6 +20,7 @@ export default function Page() {
       <Integrations />
       <Difference />
       <Pricing />
+      <FAQ />
       <Footer />
     </main>
   )
