@@ -5,6 +5,10 @@ import { useState, useRef, useCallback } from "react"
 const PERSONAS = [
   {
     slug: "sophie-chen",
+    // The model backing this persona. Format: "provider/model-id".
+    // TODO: Surface this model field in the persona card UI so users can see
+    //       which model is powering each persona's response.
+    model: "anthropic/claude-sonnet-4-6",
     name: "Sophie Chen",
     age: 28,
     location: "San Diego, CA",
@@ -21,6 +25,7 @@ const PERSONAS = [
   },
   {
     slug: "marcus-hayes",
+    model: "anthropic/claude-sonnet-4-6",
     name: "Marcus Hayes",
     age: 38,
     location: "Brooklyn, NY",
@@ -37,6 +42,7 @@ const PERSONAS = [
   },
   {
     slug: "priya-sharma",
+    model: "anthropic/claude-sonnet-4-6",
     name: "Priya Sharma",
     age: 44,
     location: "Chicago, IL",
@@ -114,7 +120,7 @@ export default function PanelPage() {
         const res = await fetch("/api/chat/stream", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ persona: persona.slug, messages }),
+          body: JSON.stringify({ persona: persona.slug, model: persona.model, messages }),
         })
 
         if (!res.ok || !res.body) {

@@ -1,9 +1,8 @@
-import Anthropic from "@anthropic-ai/sdk"
+import { streamText } from "ai"
 import { readFileSync } from "fs"
 import { join } from "path"
 import { NextRequest } from "next/server"
-
-const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
+import { resolveModel, DEFAULT_MODEL } from "@/lib/ai-providers"
 
 function loadPersonaSystemPrompt(personaSlug: string): string {
   const personasDir = join(process.cwd(), "personas")
@@ -19,36 +18,17 @@ function loadPersonaSystemPrompt(personaSlug: string): string {
 }
 
 export async function POST(req: NextRequest) {
-  const { persona, messages } = await req.json()
+  const { persona, model, messages } = await req.json()
 
   const systemPrompt = loadPersonaSystemPrompt(persona)
+  const resolvedModel = resolveModel(model ?? DEFAULT_MODEL)
 
-  const stream = client.messages.stream({
-    model: "claude-sonnet-4-6",
-    max_tokens: 1024,
+  const result = streamText({
+    model: resolvedModel,
     system: systemPrompt,
     messages,
+    maxOutputTokens: 1024,
   })
 
-  const encoder = new TextEncoder()
-  const readable = new ReadableStream({
-    async start(controller) {
-      for await (const event of stream) {
-        if (
-          event.type === "content_block_delta" &&
-          event.delta.type === "text_delta"
-        ) {
-          controller.enqueue(encoder.encode(event.delta.text))
-        }
-      }
-      controller.close()
-    },
-    cancel() {
-      stream.abort()
-    },
-  })
-
-  return new Response(readable, {
-    headers: { "Content-Type": "text/plain; charset=utf-8" },
-  })
+  return result.toTextStreamResponse()
 }

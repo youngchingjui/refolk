@@ -1,7 +1,6 @@
-import Anthropic from "@anthropic-ai/sdk"
+import { generateText } from "ai"
 import { NextRequest, NextResponse } from "next/server"
-
-const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
+import { resolveModel, DEFAULT_MODEL } from "@/lib/ai-providers"
 
 type PersonaResponse = {
   name: string
@@ -33,14 +32,11 @@ Synthesize these perspectives into a brief summary. Identify:
 
 Write in plain prose, no headers or bullet points. Keep it under 150 words. Don't attribute every point — synthesize, don't list.`
 
-  const response = await client.messages.create({
-    model: "claude-sonnet-4-6",
-    max_tokens: 512,
+  const { text } = await generateText({
+    model: resolveModel(DEFAULT_MODEL),
     messages: [{ role: "user", content: prompt }],
+    maxOutputTokens: 512,
   })
 
-  const summary =
-    response.content[0].type === "text" ? response.content[0].text : ""
-
-  return NextResponse.json({ summary })
+  return NextResponse.json({ summary: text })
 }

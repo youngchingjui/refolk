@@ -4,6 +4,10 @@ import { useState, useRef } from "react"
 
 const SOPHIE = {
   slug: "sophie-chen",
+  // The model backing this persona. Format: "provider/model-id".
+  // TODO: Surface this model field in the persona sidebar so users can see
+  //       which model is powering Sophie's responses.
+  model: "anthropic/claude-sonnet-4-6",
   name: "Sophie Chen",
   age: 28,
   location: "San Diego, CA",
@@ -113,7 +117,7 @@ export default function DemoPage() {
     const res = await fetch("/api/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ persona: SOPHIE.slug, messages: apiMessages }),
+      body: JSON.stringify({ persona: SOPHIE.slug, model: SOPHIE.model, messages: apiMessages }),
     })
     const data = await res.json()
 
